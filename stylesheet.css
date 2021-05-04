@@ -2,10 +2,6 @@
   background-color: #233554;
 }
 
-h1 {
-  color: brown;
-}
-
 h3 {
   color: #64ffda
 }
@@ -16,9 +12,24 @@ header {
 
 ul {
   list-style-type: none;
-  color: #ccd6f6
 }
 
 a {
   color: #ccd6f6
+}
+
+p {
+  color: #a8b2d1;
+}
+
+.resumeBtn {
+  color: #64ffda!important;
+  border: 1px solid #64ffda;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#resumeBtn {
+  padding: 10px;
 }
