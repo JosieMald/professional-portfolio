@@ -7,7 +7,7 @@ h1 {
 }
 
 h3 {
-  color: 
+  color: #64ffda
 }
 
 header {
@@ -16,4 +16,9 @@ header {
 
 ul {
   list-style-type: none;
+  color: #ccd6f6
+}
+
+a {
+  color: #ccd6f6
 }
