@@ -1,3 +1,19 @@
+* body {
+  background-color: #233554;
+}
+
 h1 {
-    color: brown;
+  color: brown;
+}
+
+h3 {
+  color: 
+}
+
+header {
+  margin: 5px, 0, 5px 0
+}
+
+ul {
+  list-style-type: none;
 }
