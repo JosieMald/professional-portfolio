@@ -12,6 +12,7 @@ var nav = [
     countdown = setInterval(function () {
       console.log(nav[i]);
       if (i <= 5) {
+        nav[i].removeClass("hide")
         nav[i].addClass("animate__fadeInDown");
         i++;
         console.log(i);

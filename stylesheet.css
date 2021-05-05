@@ -50,9 +50,13 @@ p {
 }
 
 .animate__fadeInDown {
-  position:relative;
+  position: static;
   animation: fadeInDown; 
   animation-duration: 3s; 
+}
+
+.hide {
+  display: none;
 }
 
 #resumeBtn {
