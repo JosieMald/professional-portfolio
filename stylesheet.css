@@ -56,7 +56,7 @@ p, i{
 }
 
 .hide {
-  display: none;
+  visibility: hidden !important;
 }
 
 #resumeBtn {
