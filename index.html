@@ -13,6 +13,11 @@
     />
     <!-- CSS -->
     <link rel="stylesheet" href="stylesheet.css" />
+    <!-- ANIMATE -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>Josie M.</title>
   </head>
   <!------------------------------------ NAV BAR ------------------------------------->
@@ -20,23 +25,23 @@
   <header> 
     <nav class="d-flex align-middle mt-3">
       <div class="container">
-        <h3>Josie Maldonado</h3>
-      </div>
-      <div class="container">
+        <h3 class="nav1">Josie Maldonado</h3>
+        </div>
+        <div class="container">
         <ul class="d-flex text-right align-middle justify-content-end">
           <li>
-            <a class="nav-link" href="#">About Me</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#">Work</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-      <div id="resumeBtn">
-        <a class="resumeBtn">Resume</a>
+            <a class="nav-link nav2" href="#">About Me</a>
+              </li>
+              <li>
+              <a class="nav-link nav3" href="#">Work</a>
+              </li>
+              <li>
+            <a class="nav-link nav4" href="#">Contact</a>
+            </li>
+          </ul>
+          </div>
+        <div id="resumeBtn" class="nav5" >
+        <a class="resumeBtn nav5">Resume</a>
       </div>
     </nav>
   </header>
@@ -68,7 +73,7 @@
     <div class="container">
     <div class="d-flex justify-content-center">
       <a class="work-card" href="https://sttorek.github.io/snoopie/">
-        <img src="assets/snoopie.png" width="750" height="450"/>
+        <img src="assets/snoopie.png" width="770" height="450"/>
       <div class="work-gallery container">
         <h4>Snoopie </h4>
         <p>A web app to find the perfect pet</p>
@@ -77,30 +82,42 @@
     </div>
   </div>
   <div class="container">
-    <div class="d-flex justify-content-center flex-row">
-      <a class="work-card" href="https://github.com/JosieMald/e-commerce-back-end">
+    <div class="d-flex flex-wrap justify-content-center">
+      <a class="work-card mt-4 mr-2" href="https://github.com/JosieMald/e-commerce-back-end">
         <img src="https://marketingland.com/wp-content/ml-loads/2015/02/ecommerce-shopping-cart-keyboard-ss-1920.jpg" width="375" height="200"/>
       <div class="work-gallery-sub container">
         <h5>E Commerce Back End </h5>
         <p>App to view e commerce DB</p>
       </div>
       </a>
-    </div>
-    <div>
-      <a class="work-card" href="https://github.com/JosieMald/event-calendar">
-        <img src="https://thumbs.dreamstime.com/b/planning-day-day-blank-day-planner-pen-your-blue-96797256.jpg" width="375" height="200"/>
-      <div class="work-gallery-sub container">
-        <h5>Event Planner </h5>
-        <p>Calendar to keep you organized </p>
-      </div>
+        <a class="work-card mt-4 ml-2" href="https://github.com/JosieMald/event-calendar">
+          <img src="https://thumbs.dreamstime.com/b/planning-day-day-blank-day-planner-pen-your-blue-96797256.jpg" width="375" height="200"/>
+          <div class="work-gallery-sub container">
+          <h5>Event Planner </h5>
+          <p>Calendar to keep you organized </p>
+        </div>
+        </a>
+        <a class="work-card mt-4 mr-2" href="https://github.com/JosieMald/professional-readME-generator">
+          <img src="assets/readme.png" width="375" height="200"/>
+          <div class="work-gallery-sub container">
+          <h5>ReadME Generator</h5>
+          <p>Create a professional readME</p>
+        </div>
       </a>
-    </div>
+        <a class="work-card mt-4 ml-2" href="https://github.com/JosieMald/password-generator/blob/main/assets/password-generator-screenshot.png">
+          <img src="assets/passwordGenerator.png" width="375" height="200"/>
+          <div class="work-gallery-sub container">
+          <h5>PW Generator </h5>
+          <p>Generate a random password</p>
+        </div>
+        </a>
   </div>
+    </div>
     <!------------------------------- CONTACT --------------------------------------->
     <div class="container">
       <h3>Contact</h3>
     </div>
-
+    <!------------------------------ SCRIPTS ----------------------------------------->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="script.js"></script>
   </body>

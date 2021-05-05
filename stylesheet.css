@@ -49,6 +49,12 @@ p {
   width: 75%;
 }
 
+.animate__fadeInDown {
+  position:relative;
+  animation: fadeInDown; 
+  animation-duration: 3s; 
+}
+
 #resumeBtn {
   padding: 10px;
 }
