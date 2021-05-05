@@ -11,7 +11,7 @@ Wanted to update my portfolio with new homework assignments and projects.
 
 ## Deployed
 
-[Deployed Site](assets/pdf/resume.pdf)
+![Deployed Site](assets/portfolioSS.png)
 
 ## Questions
 
